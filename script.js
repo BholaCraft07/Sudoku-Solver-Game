@@ -105,7 +105,7 @@ function selectedtile() {
 function addNumber() {
     if (Last_selectedtile && !Last_selectedtile.classList.contains('fixedDigit')) {
         Last_selectedtile.textContent = this.innerText;
-        Last_selectedtile.style.color = 'red'; // Change color to indicate user entry
+        Last_selectedtile.style.color = '#fff'; // Change color to indicate user entry
     }
 }
 
