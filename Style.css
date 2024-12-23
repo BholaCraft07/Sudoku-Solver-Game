@@ -1,0 +1,94 @@
+main{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 70%;
+    margin: 30px auto;
+}
+.container{
+    margin: 100px auto;
+    max-width: 100%;
+    border: 1px solid #110808;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    
+
+}
+.container h1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.mistake{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #000;
+    margin: 10px auto;
+    border-radius: 5px 5px;
+    background: #cfee5e;
+    font-size: 22px;
+    color: white;
+}
+.mistake span{
+    color: red;
+}
+.board{
+    box-shadow: 1px 1px 10px 5px rgba(15, 11, 11, 0.6);
+    
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    /* border: 3px solid #ebe4e4;    */
+    border: 3px solid #020000;   
+    /* background: #DCDCDC; */
+    background: #aa9898;
+}
+.tile{
+    width: calc(100% /10);
+    height: calc(100% /10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.001px solid #FFFAFA;
+    font-size: 24px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.fixedDigit{
+    color: #0000FF;
+    background: #FFB6C1;
+    border: 1px solid black;
+    cursor: not-allowed;
+}
+.digit{
+    width:60vmin ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    
+}
+.digit .tile{
+    border: 1px solid black;
+    border-radius: 5px 0;
+    cursor: pointer;
+}
+.digit .tile:hover{
+    background: #34e66c;
+    color: #fff;
+}
+/*when we hover any tile then it look like it is */
+.select{
+    background-color: 	#87CEFA;
+}
+
+.border-bottom{
+    border-bottom: 3px solid #000;
+}
+.border-right{
+    border-right: 3px solid #000;
+}

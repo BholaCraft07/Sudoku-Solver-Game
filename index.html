@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <!-- <script src="index.js" defer></script> -->
+    <script src="script.js" defer></script>
+    <style>
+       body{
+        background: #212121;
+        color: #fff;
+       }
+      
+       #start{
+        background-color: #56e35b;
+        width:100px;
+        padding: 5px 2px;
+        border: none;
+        border-radius: 2px 2px 2px 2px;
+        color: red;
+       }
+       #timer{
+        background-color: #56e35b;
+        padding: 5px 5px;
+       } 
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container" id="container">
+            <h1>SUDOKU SOLVER</h1>
+            <hr>
+            <div class="countdown">
+                <button id="start">start</button>
+                <div id="timer" style="display: none;"></div>
+
+            </div>
+            <!-- create matrix 9x9  -->
+             <div class="board" id="board">
+                <!-- a cell  -->
+                <!-- <div class="tile fixedDigit"></div> -->
+                <!-- <div class="tile"></div> -->
+             </div>
+             <div class="digit">
+                
+             </div>
+             <button id="newPuzzle">New Puzzle</button>
+             <!-- <button class="submit" id="submitBtn">submit</button> -->
+             <input type="submit" name="submit" id="submitBtn">
+        </div>
+    </main>
+</body>
+      
+</html>
+<!-- https://www.youtube.com/watch?v=SGzOiuX3nc8-->
+
+
+
+
+
+
+
+
+
+
+
+
+
